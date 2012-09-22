@@ -17,7 +17,7 @@ class SessionsController < Devise::SessionsController
   def destroy
     signed_in = signed_in?(resource_name)
     sign_out(resource_name) if signed_in
-    session[:url_for_oauth_code] = @@oauth.url_for_oauth_code(:permissions=>'publish_stream', :permissions=>'email', :callback_url=>'http://adopt-a-hydrant-syracuse.herokuapp.com/')
+    session[:url_for_oauth_code] = @@oauth.url_for_oauth_code(:permissions=>'publish_stream', :permissions=>'email', :callback_url=>'http://adopt-a-hydrant-providence.herokuapp.com/')
     render(:json => {'success' => signed_in})
   end
 end

@@ -35,15 +35,15 @@ protected
 
   def set_locale
     begin
-    @@oauth = Koala::Facebook::OAuth.new 255900427854057, '8efe989aeb23f1206c40362da5795ba0', 'http://adopt-a-hydrant-syracuse.herokuapp.com/'
+    @@oauth = Koala::Facebook::OAuth.new 255900427854057, '8efe989aeb23f1206c40362da5795ba0', 'http://adopt-a-hydrant-providence.herokuapp.com/'
     if !request[:code].nil?
       @@graph = Koala::Facebook::API.new @@oauth.get_access_token(request[:code])
       @@profile = @@graph.get_object 'me'
     end
     if request.env['HTTP_USER_AGENT'].include? 'Mobi'
-      session[:url_for_oauth_code] = @@oauth.url_for_oauth_code :permissions=>'publish_stream', :permissions=>'email', :callback_url=>'http://adopt-a-hydrant-syracuse.herokuapp.com/', :display=>'touch'
+      session[:url_for_oauth_code] = @@oauth.url_for_oauth_code :permissions=>'publish_stream', :permissions=>'email', :callback_url=>'http://adopt-a-hydrant-providence.herokuapp.com/', :display=>'touch'
     else
-      session[:url_for_oauth_code] = @@oauth.url_for_oauth_code :permissions=>'publish_stream', :permissions=>'email', :callback_url=>'http://adopt-a-hydrant-syracuse.herokuapp.com/'
+      session[:url_for_oauth_code] = @@oauth.url_for_oauth_code :permissions=>'publish_stream', :permissions=>'email', :callback_url=>'http://adopt-a-hydrant-providence.herokuapp.com/'
     end
     
     available_languages = Dir.glob(Rails.root + 'config/locales/??.yml').map do |file|
