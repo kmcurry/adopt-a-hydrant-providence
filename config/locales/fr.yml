@@ -24,11 +24,11 @@ fr:
     address: 'Adresse'
     address_1: '233 E. Washington St.'
     address_2: ''
-    city: 'Syracuse'
-    city_state: 'Syracuse, New York'
+    city: 'Providence'
+    city_state: 'Providence, New York'
     neighborhood: 'Downtown'
     sms_number: '315-555-5555'
-    state: 'NY'
+    state: 'RI'
     thing: "bouche d'incendie"
     this_thing: "Cette %{thing}"
     tagline: "La responsabilité Réclamation pour pelleter une bouche d'incendie le feu après qu'il neige."
