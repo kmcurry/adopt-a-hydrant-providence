@@ -33,7 +33,7 @@ es:
     tagline: 'Reclamar la responsabilidad para palear un hidrante de incendios después de que las nieves.'
     tos: "Al registrarse, usted está de acuerdo con los %{tos}."
     voice_number: '315-555-5555'
-    zip: '13202'
+    zip: '02903'
   errors:
     password: 'Tienes que iniciar sesión o registrarse antes de continuar.'
     not_found: "No se pudo encontrar %{thing}."

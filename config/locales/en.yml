@@ -36,7 +36,7 @@ en:
     tagline: 'Claim responsibility for shoveling out a fire hydrant after it snows.'
     tos: "By signing up, you agree to the %{tos}."
     voice_number: '315-555-5555'
-    zip: '13202'
+    zip: '02903'
   errors:
     password: 'You need to log in or sign up before continuing.'
     not_found: "Could not find %{thing}."

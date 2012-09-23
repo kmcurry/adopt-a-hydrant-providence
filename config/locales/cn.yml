@@ -33,7 +33,7 @@ cn:
     tagline: '下雪後鏟出一個消防栓的索賠責任。'
     tos: "通過簽約，你同意到%{tos}。"
     voice_number: '315-555-5555'
-    zip: '13202'
+    zip: '02903'
   errors:
     password: '您需要登錄或註冊，然後再繼續。'
     not_found: '找不到消防栓。'

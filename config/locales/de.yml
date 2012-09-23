@@ -35,7 +35,7 @@ de:
     tagline: 'Claim Verantwortung für schaufeln ein Feuer Hydrant, nachdem es schneit.'
     tos: "Mit der Anmeldung erklären Sie sich mit den %{tos}."
     voice_number: '315-555-5555'
-    zip: '13202'
+    zip: '02903'
   errors:
     password: 'Sie müssen sich einloggen oder registrieren, bevor Sie fortfahren.'
     not_found: "Konnte nicht gefunden werden %{thing}."

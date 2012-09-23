@@ -34,7 +34,7 @@ fr:
     tagline: "La responsabilité Réclamation pour pelleter une bouche d'incendie le feu après qu'il neige."
     tos: "En vous inscrivant, vous acceptez les %{tos}."
     voice_number: '315-555-5555'
-    zip: '13202'
+    zip: '02903'
   errors:
     password: 'Vous devez vous identifier ou vous inscrire avant de poursuivre.'
     not_found: "Impossible de trouver %{thing}."

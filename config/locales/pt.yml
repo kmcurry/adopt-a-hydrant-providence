@@ -33,7 +33,7 @@ pt:
     tagline: 'Responsabilidade pedido de pá para fora um hidrante de incêndio depois que neva.'
     tos: "Ao inscrever-se, você concorda com os %{tos}."
     voice_number: '315-555-5555'
-    zip: '13202'
+    zip: '02903'
   errors:
     password: 'Você precisa fazer o login ou registre-se antes de continuar.'
     not_found: "Não foi possível encontrar %{thing}."
