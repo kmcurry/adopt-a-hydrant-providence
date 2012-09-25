@@ -21,7 +21,7 @@ ru:
     private: '(частное)'
   defaults:
     address: 'адрес'
-    address_1: '233 E. Washington St.'
+    address_1: '55 Eddy St.'
     address_2: ''
     city: 'Providence'
     city_state: 'Providence, Rhode Island'
