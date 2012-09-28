@@ -17,7 +17,7 @@ ActionMailer::Base.smtp_settings = {
   :port           => 587,
   :authentication => :plain,
   :domain         => 'mail.google.com',
-  :user_name      => 'adoptahydrantsyracuse@gmail.com',
+  :user_name      => 'adoptahydrantprovidence@gmail.com',
   :password       => 'Drewby!23'
 }
-ActionMailer::Base.default :from => 'adoptahydrantsyracuse@gmail.com'
+ActionMailer::Base.default :from => 'adoptahydrantprovidence@gmail.com'
